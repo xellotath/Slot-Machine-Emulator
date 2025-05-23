@@ -1,6 +1,6 @@
 # Slot Machine Emulator
 
-A C-based emulator for slot machine game mechanics, designed to simulate spins, track winnings, and manage both fair and unfair play databases.
+A C-based emulator for slot machine game mechanics, designed to simulate spins, track winnings in a database, and manage the data.
 
 ## Features
 
@@ -8,29 +8,6 @@ A C-based emulator for slot machine game mechanics, designed to simulate spins, 
 - **Database Integration:** Utilizes SQLite databases (`fair.db` and `unfair.db`) to store data and potentially track different modes of play.
 - **Configurable Reels:** Multiple reels are "spun" programmatically, and results are loaded into a screen matrix for display.
 - **Customizable Weights and Bets:** Reel outcomes can be influenced by bet amounts and custom weights, allowing for experimentation with fairness or odds.
-
-## Getting Started
-
-### Prerequisites
-
-- A C compiler (e.g., `gcc`)
-- [SQLite3](https://www.sqlite.org/index.html) development libraries
-
-### Build Instructions
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/xellotath/Slot-Machine-Emulator.git
-   ```
-2. Navigate to the project directory (e.g., `SlotPrototype1`).
-3. Compile the project:
-   ```sh
-   gcc main.cpp -lsqlite3 -o slotemulator
-   ```
-4. Run the emulator:
-   ```sh
-   ./slotemulator
-   ```
 
 ## Usage
 
